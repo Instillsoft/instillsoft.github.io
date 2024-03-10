@@ -92,7 +92,7 @@ const Footer = () => {
         <div className="text-center">
           Made with &hearts; by{" "}
           <a href="https://devdreaming.com" className="underline" target="_blank">
-            CodeBucks
+            Instill Learning
           </a>
         </div>
       </div>
