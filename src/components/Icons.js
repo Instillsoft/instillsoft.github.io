@@ -364,6 +364,25 @@ export const LinkedinIcon = ({ className, ...rest }) => {
   );
 };
 
+export const YoutubeIcon = ({ className, ...rest }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={42}
+      height={43}
+      viewBox="0 0 42 43"
+      className={cx("w-full h-auto", className)}
+      {...rest}
+    >
+      <path
+        fill="#FF0000"
+        d="M41.5 21.5c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z"
+      />
+      <path fill="#FFF" d="M28.333 21.5l-11.666 6.666V15l11.666 6.5z" />
+    </svg>
+  );
+};
+
 export const TwitterIcon = ({ className, ...rest }) => {
   return (
     <svg
